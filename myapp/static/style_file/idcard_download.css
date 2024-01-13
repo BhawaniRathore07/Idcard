@@ -1,0 +1,80 @@
+      .main {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+
+    /* Add styles for the header */
+    .header {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Add styles for the container */
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+    }
+
+    /* Add styles for the ID card */
+    .card {
+        width: 455px;
+        height: 305px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+
+    }
+
+    /* Add styles for the ID card image */
+    .card img {
+        width: 400px;
+        height: 250px;
+        margin-top: 10px;
+        border: 2px black solid;
+        border-radius:4px;
+    }
+
+    /* Add styles for the download button */
+    .download-button {
+        width: 150px;
+        height: 30px;
+        background-color: blue;
+        padding-top: 10px;
+        margin-top:5px;
+        border-style: outset;
+        border-color: royalblue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Add styles for the download button link */
+    .card a{
+        color: #aad5ff;
+        text-decoration-line: blink;
+        margin-top:5px;
+    }
+
+    /* Add styles for the footer */
+    .footer {
+        width: 100%;
+        text-align: center;
+    }
+
+@media only screen and (max-width: 600px) {
+  .card img{
+    width: 300px;
+    height: 200px;
+  }
+.card {
+    width:400px;
+    height:300px;
+}
+}

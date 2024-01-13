@@ -1,0 +1,44 @@
+
+/* Default styles 
+.my_form input[type="text"] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+
+
+@media only screen and (min-width: 1024px) {
+  .my_form input[type="text"] {
+    margin: 0 auto;
+    
+  }
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .my_form input[type="text"] {
+    width: 100%;
+    margin: 0 auto;
+    
+  }
+  .generate-button{
+    width:30px;
+    height:15px;
+}
+}
+.generate-button{
+    width:30px;
+    height:15px;
+}
+.button{
+    width:30px;
+    height:15px;
+    background-color:rgb(0, 136, 255);
+    border-style:outset;
+    border-color:black;
+    color:whitesmoke;
+}
+*/

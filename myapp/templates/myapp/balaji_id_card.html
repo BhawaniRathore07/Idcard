@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Balaji Id Card </title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'style_file/style.css' %}">
+</head>
+<body>
+    <div class="main" align="center">
+        <h1 align="center">Welcome To Balaji Id Card Maker!</h1><a href="temp/">Link Temp</a>
+        <form class = "my_form" method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                {{ form.as_p }}
+            <div class="generate-button" >
+
+
+                <input class="button" type="submit" value="Generate Template">
+            </div>
+            </form>
+    </div>
+</body>
+</html>

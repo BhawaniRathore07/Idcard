@@ -1,0 +1,43 @@
+{% extends 'myapp/base.html' %}
+{% block title %}Home Page {% endblock title %}
+{% load static %}
+{% block cssFile %}
+    
+{% endblock cssFile %}
+{% block content %}
+<h1 class="my-4"> Id Card  </h1>
+<div class="row">
+  <div class="col-md-4">
+    <div class="card">
+
+      <img src="{% static 'template/balaji/balaji_homepage.png' %}" alt="image1">
+
+      <a href="balaji_id_card"> <button>Create<span>&rarr;</span></button></a>
+    </div>
+ </div>
+ <div class="col-md-4">
+  <div class="card" >
+    <img src="{% static 'template/pak/pak_homepage.png' %}" alt="image2">
+   <a href="pak_id_card" > <button>Create<span>&rarr;</span></button></a>
+  </div>
+</div>
+
+<div class="col-md-4">
+  <div class="card">
+
+    <img src="{% static 'template/balaji/balaji_homepage.png' %}" alt="image1">
+
+    <a href="balaji_id_card"> <button>Create<span>&rarr;</span></button></a>
+  </div>
+</div>
+<div class="col-md-4">
+<div class="card" >
+  <img src="{% static 'template/pak/pak_homepage.png' %}" alt="image2">
+ <a href="pak_id_card" > <button>Create<span>&rarr;</span></button></a>
+</div>
+</div>
+
+
+</div>
+{% endblock content %}
+
